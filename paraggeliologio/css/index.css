@@ -1,0 +1,310 @@
+:root {
+    /*--body_gradient_left: #7200D0;
+    --body_gradient_right: #C800C1; */
+	--body_gradient_left: #009999;
+    --body_gradient_right: #ccffff; 
+    --form_bg: #ffffff;
+    --input_bg: #E5E5E5;
+    --input_hover: #c7c3c1;
+    --submit_bg: #058b94;
+    --submit_hover: #00cccc;
+    --icon_color: #6b6b6b;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* make the body full height*/
+    height: 80vh;
+    /* set our custom font */
+    font-family: 'Roboto',
+        sans-serif;
+    /* create a linear gradient*/
+   /* background-image: linear-gradient(to right, var(--body_gradient_left), var(--body_gradient_right)); 
+	background-image:background: linear-gradient(to bottom, #009999 0%, #ccffff 100%); */
+	background:  url("../images/index4.png") no-repeat fixed center;
+	/*background-image : url("images/delta2.jpg");
+	background-repeat: no-repeat;
+	 background-position: center;  */
+   
+	background-size : cover; 
+	/*opacity : 0.7; */
+    display: flex; 
+}
+
+
+#form_wrapper {
+    width: 600px;
+    height: 400px;
+    /* this will help us center it
+    margin: auto;*/
+    
+    margin-left :auto;
+    margin-right :auto;
+    margin-top: 300px;
+    background-color: var(--form_bg);
+    border-radius: 50px;
+    /* make it a grid container*/
+    display: grid;
+    /* with two columns of same width*/
+    grid-template-columns: 1fr 1fr;
+    /* with a small gap in between them*/
+    grid-gap: 1vw;
+    /* add some padding around */
+    padding: 2vh 15px;
+    opacity : 0.95;
+    
+}
+
+#form_left {
+    /* center the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form_left img {
+	position:absolute;
+    width: 400px;
+    height: 180px;
+	z-index:1;
+	border-radius: 25px;
+	
+}
+
+#form_right {
+    display: grid;
+    /* single column layout */
+    grid-template-columns: 1fr;
+    /* have some gap in between elements*/
+    grid-gap: 5px;
+    padding: 10% 5%;
+	z-index:2;
+}
+h1,
+span {
+    text-align: center;
+	/*font-size:32px;*/
+}
+
+.input_container {
+    background-color: var(--input_bg);
+    /* vertically align icon and text inside the div*/
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.input_container,
+#input_submit {
+    height: 60px;
+    /* make the borders more round */
+    border-radius: 30px;
+    width: 100%;
+}
+.input_container:hover {
+    background-color: var(--input_hover);
+}
+.input_field {
+    /* customize the input tag with lighter font and some padding*/
+    color: var(--icon_color);
+    background-color: inherit;
+    width: 90%;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.input_field:hover,
+.input_field:focus {
+    /* remove the outline */
+    outline: none;
+}
+
+#input_submit {
+    /* submit button has a different color and different padding */
+    background-color: var(--submit_bg);
+    padding-left: 0;
+    font-weight: bold;
+    color: white;
+  
+}
+
+#input_submit:hover {
+    background-color: var(--submit_hover);
+    /* simple color transition on hover */
+    transition: background-color,
+        1s;
+    cursor: pointer;
+}
+
+/* shift it a bit lower */
+#create_account {
+    display: block;
+    position: relative;
+    top: 30px;
+}
+
+a {
+    /* remove default underline */
+    text-decoration: none;
+    color: var(--submit_bg);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--submit_hover);
+}
+
+i {
+    color: var(--icon_color);
+}
+
+
+@media screen and (max-width:1200px) {
+
+  #form_wrapper {
+    width: 100% !important; /* Adjust this value as needed */
+    grid-template-columns: 1fr;
+    /* Remove the left margin */
+    margin-left: auto;
+  }
+/* on small screens, hide the image */
+  #form_left {
+    display: none;
+  }
+
+  .w3-button {
+    font-size: 14px;
+  }
+}
+
+/* make it responsive */
+@media screen and (max-width:767px) {
+
+  #form_wrapper {
+    width: 90% !important; /* Adjust this value as needed */
+    grid-template-columns: 1fr;
+    /* Remove the left margin */
+    margin-left: auto;
+  }
+/* on small screens, hide the image */
+  #form_left {
+    display: none;
+  }
+
+  .w3-button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* Adjust the width of the wrapper */
+  #form_wrapper {
+      width: 80% !important; /* Adjust this value as needed */
+      grid-template-columns: 1fr;
+      /* Remove the left margin */
+      margin-left: auto;
+  }
+  /* on small screens, hide the image */
+  #form_left {
+      display: none;
+  }
+
+  .w3-button {
+    font-size: 12px;
+  }
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #0676ed;
+  --background: #222b45;
+  --warning: #f2a600;
+  --success: #12c99b;
+  --error: #FA2A4C;
+  --dark: #151a30;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--background);
+}
+
+.alert {
+  min-height: 67px;
+  width: 960px;
+  max-width: 90%;
+  border-radius: 12px;
+  padding: 16px 22px 17px 20px;
+  display: flex;
+  align-items: center;
+}
+.alert-warning {
+  background: var(--warning);
+}
+.alert-success {
+  background: var(--success);
+}
+.alert-primary {
+  background: var(--primary);
+}
+.alert-dark {
+  background: var(--dark);
+}
+.alert-error {
+  background: var(--error);
+}
+.alert .icon__wrapper {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.253);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alert .icon__wrapper span {
+  font-size: 21px;
+  color: #fff;
+}
+.alert p {
+  color: #fff;
+  font-family: Verdana;
+  margin-left: 10px;
+}
+.alert p a,
+.alert p a:visited,
+.alert p a:active {
+  color: #fff;
+}
+.alert .open {
+  margin-left: auto;
+  margin-right: 5px;
+}
+.alert .close, .alert .open {
+  color: #fff;
+  transition: transform 0.5s;
+  font-size: 18px;
+  cursor: pointer;
+}
+.alert .close:hover, .alert .open:hover {
+  transform: scale(1.3);
+}
