@@ -1,6 +1,5 @@
 # OrdersShop
-The OrderShop is about shopping products inside the company. 
-It is an online store for web and mobile only for employeers to order food inside the company. 
+It is an online store for web and mobile only for employeers to order food inside the company.
 
 <img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/f0a7775d-4236-410f-a22e-d18302ed79df" width="700" height="400" />
 <img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/c5f588e1-dc9a-403b-9ca1-37b83d551401" width="750" height="400" /> 
