@@ -1,9 +1,8 @@
 # OrdersShop
 It is an online store for web and mobile only for employeers to order food inside the company.
 
-<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/f0a7775d-4236-410f-a22e-d18302ed79df" width="700" height="400" />
-<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/c5f588e1-dc9a-403b-9ca1-37b83d551401" width="750![Login_desktop](https://github.com/kitsakisGk/OrdersShop/assets/57558604/e5044335-e0c6-49a2-b690-d3ac63e1d349)
-" height="400" /> 
+<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/8f1103cf-8d7b-4ad1-94eb-272a2754d5fd" width="700" height="400" />
+<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/c5f588e1-dc9a-403b-9ca1-37b83d551401" width="750" height="400" /> 
 <br>
 <img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/a2bcd7e5-4e10-4dd6-a3ba-193df3fa9f79" width="300" height="650" />
 <img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/faa64285-fb73-4e10-94f0-007a27bbe26d" width="300" height="650" />
