@@ -1,13 +1,13 @@
 # OrdersShop
 It is an online store for web and mobile only for employeers to order food inside the company.
 
-<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/8f1103cf-8d7b-4ad1-94eb-272a2754d5fd" width="700" height="400" />
-<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/c5f588e1-dc9a-403b-9ca1-37b83d551401" width="750" height="400" /> 
+<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/8f1103cf-8d7b-4ad1-94eb-272a2754d5fd" width="750" height="400" />
+<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/71ff2ba1-1dff-48f6-8ee7-141fabf4fb03" width="750" height="400" /> 
 <br>
-<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/a2bcd7e5-4e10-4dd6-a3ba-193df3fa9f79" width="300" height="650" />
-<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/faa64285-fb73-4e10-94f0-007a27bbe26d" width="300" height="650" />
-<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/b9abd3af-2a00-46be-b854-a16522af1fe6" width="300" height="650" />
-<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/8d8171ad-5707-4395-a767-caac5b8be2d1" width="300" height="650" />
+<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/81bb1bcd-2dfe-4f7e-b1e6-89cfbf34b765" width="300" height="650" />
+<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/b150c4e3-ad0c-4bcc-b657-9626595f3f6b" width="300" height="650" />
+<img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/7cf16920-2020-4fa1-b923-343d16dd9c55" width="300" height="650" />
+
 
 
  
