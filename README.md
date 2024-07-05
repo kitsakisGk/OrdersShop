@@ -8,7 +8,6 @@ It is an online store for web and mobile only for employeers to order food insid
 <img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/b150c4e3-ad0c-4bcc-b657-9626595f3f6b" height="800" width="350"/>
 <img src="https://github.com/kitsakisGk/OrdersShop/assets/57558604/7cf16920-2020-4fa1-b923-343d16dd9c55" height="800" width="350"/>
 
-## Note
-For policy reasons, you can see how it looks, not the products.
+
 
  
